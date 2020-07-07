@@ -1,0 +1,41 @@
+body {
+    background-color: azure;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.center {
+    display: flex;
+    width: 700px;
+    height: 30px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: end;
+}
+
+input {
+    width: 700px;
+}
+
+button {
+    height: 30px;
+    margin: 0 20px;
+}
