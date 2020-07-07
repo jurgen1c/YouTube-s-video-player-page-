@@ -77,8 +77,9 @@ button {
     display: grid;
 }
 .video-btns {
-    display: grid;
+    display: flex;
     flex-direction: row;
+    align-items: flex-end;
 }
 .Comments {
     display: flex;
@@ -115,8 +116,24 @@ button {
 .user-comments {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
 
+}
+.creator-name {
+    display: flex;
+    flex-direction: row;    
+    align-items: flex-start;
+}
+.avatar {
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+.user-avatar {
+    display: flex;
+    flex-direction: row;
 }
 h2 {
     font-size: 26px;
