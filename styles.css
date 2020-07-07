@@ -1,0 +1,13 @@
+main {
+    width: 100%;
+}
+span {
+    margin: auto;
+}
+.video-player-section {
+    width: 70%;
+
+}
+.recommended {
+    width: 30%;
+}
