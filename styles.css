@@ -37,6 +37,7 @@ body {
 
 input {
     width: 700px;
+    height: 25px;
 }
 
 button {
@@ -64,12 +65,20 @@ button {
     display: flex;
     width: 900px;
     height: 400px;
-    padding-left: 50px;
     padding-bottom: 30px;
 }
 
 .title {
-    background-color: green;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.video-title {
+    display: grid;
+}
+.video-btns {
+    display: grid;
+    flex-direction: row;
 }
 .Comments {
     display: flex;
@@ -115,4 +124,3 @@ h2 {
 h3 {
     font-size: 18px;
 }
-
