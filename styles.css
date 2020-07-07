@@ -1,6 +1,10 @@
 body {
     background-color: azure;
 }
+.logo {
+    width: 50px;
+    height: 30px;
+}
 
 .header-container {
     display: flex;
@@ -38,4 +42,44 @@ input {
 button {
     height: 30px;
     margin: 0 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.video-player-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.video-player {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.title {
+    background-color: green;
+}
+.Comments {
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    background-color: gray;
+}
+.recommended {
+    display: block;
+    align-items: flex-end;
+    margin-left: 30px;
+    align-content: flex-start;
+    background-color: white;
+    height: 500px;
+    width: 300px;
 }
