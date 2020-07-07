@@ -135,6 +135,10 @@ button {
     display: flex;
     flex-direction: row;
 }
+#icons {
+    width: 30px;
+    height: 25px;
+}
 h2 {
     font-size: 26px;
 }
