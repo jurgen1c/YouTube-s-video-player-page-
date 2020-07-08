@@ -87,7 +87,6 @@ button {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    align-items: space-evenly;
     width: auto;
     padding: 10px;
     border-top: 15px #f1f1f1 solid
@@ -105,17 +104,23 @@ button {
 .video-btns {
     display: flex;
     flex-direction: row;
-    justify-items: space-evenly;
     padding: 20px;
-    margin-right: auto;
+    
+    
+}
+.views {
+    margin-left: auto;
+    padding-top: 30px;
 }
 
 .actions {
-    align-items: space-evenly;
+    
+    
 }
 .likes {
-    margin-left: 800px;
-    align-items: space-evenly;
+    margin-left: auto;
+    
+    
 }
 
 .Comments {
@@ -215,11 +220,14 @@ button {
 #icons {
     width: 30px;
     height: 25px;
+    margin: 0 10px;
+    align-items: baseline;
 }
 #autoplay {
     width: 30px;
     height: 30px;
-    padding: 10px;
+    
+    
 }
 .sub {
     display: flex;
@@ -229,7 +237,7 @@ button {
 }
 #sub-btn {
     width: 90px;
-    height: 75px;
+    
 }
 h1{
     font-size: 20px;
