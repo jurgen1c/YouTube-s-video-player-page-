@@ -48,6 +48,9 @@ button {
     height: 30px;
     margin: 0 20px;
 }
+.sign-in {
+    background-color: lightblue;
+}
 
 .main-container {
     display: flex;
@@ -76,27 +79,33 @@ button {
 .title {
     background-color: #ffffff;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: auto;
+    padding: 10px;
     
     border-top: 15px #f1f1f1 solid
     
     
 }
 .video-title {
-    flex: 1;
-    padding-left: 10px;
-}
-.video-btns {
-    flex: 1;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     padding-bottom: 20px;
     margin-right: auto;
 }
-#likes {
-    justify-content: center;
+.actions {
+    justify-content: flex-start;
+}
+.likes {
+    margin-left: 600px;
+    justify-content: flex-end;
 }
 .Comments {
     display: flex;
@@ -175,7 +184,7 @@ button {
     
 }
 .description {
-    padding-left: 10px;
+    padding: 0 10px 0 10px;
     width: auto;
     height: 150px;
     border-top: 15px #f1f1f1 solid
@@ -196,6 +205,10 @@ button {
     width: 30px;
     height: 25px;
 }
+.sub {
+    width: 60px;
+    height: 50px;
+}
 h1{
     font-size: 20px;
 }
@@ -210,6 +223,6 @@ a {
     
 }
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
