@@ -61,7 +61,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color:#ffffff;
-    width: 70%;
+    width: auto;
     margin-right: 20px;
     
 }
@@ -77,7 +77,7 @@ button {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     margin-left: 10px;
     
 }
@@ -89,7 +89,6 @@ button {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-evenly;
     padding-bottom: 20px;
     margin-right: auto;
 }
@@ -99,12 +98,17 @@ button {
 .Comments {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    margin: 5px 5px 5px 10px;
+    padding: 5px 5px 5px 10px;
+    width: auto;
     height: 100px;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     
 }
-/* REcommended section CSS */
+
+/*--------------- Recommended section CSS ----------------------------*/
 .recommended {
     /*
     display: block;
@@ -118,11 +122,6 @@ button {
     display: flex;
     flex-direction: column;
     flex: 1;
-    
-    
-    
-
-    
 }
 .background{
     display: flex;
@@ -151,14 +150,20 @@ button {
 .thumbnail-data {
     flex: 1;
 }
-
-.user-comments {
+/*-------------------Comments section --------------------*/
+/*.user-comments {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     margin-left: 10px;
+    background-color: #ffffff;
 }
+.user-replies {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}*/
 .creator-name {
     display: flex;
     flex-direction: row;    
@@ -167,7 +172,10 @@ button {
     
 }
 .description {
-    margin-left: 10px;
+    margin: 5px 5px 5px 10px;
+    padding: 5px 5px 5px 10px;
+    width: auto;
+    height: 150px;
 }
 
 .avatar {
