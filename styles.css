@@ -4,7 +4,6 @@ body {
     
 }
 .logo {
-    width: 70px;
     height: 30px;
     margin-left: 20px;
 }
@@ -36,7 +35,8 @@ body {
     display: flex;
     align-items: center;
     height: 50px;
-    justify-content: end;
+    justify-content: center;
+    padding-right: 20px;
 }
 
 input {
@@ -46,10 +46,15 @@ input {
 
 button {
     height: 30px;
-    margin: 0 20px;
+    width: 75px;
 }
 .sign-in {
-    background-color: lightblue;
+    background-color: #1079c6;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+
 }
 
 .main-container {
@@ -82,8 +87,8 @@ button {
     flex-direction: column;
     width: auto;
     padding: 10px;
-    
     border-top: 15px #f1f1f1 solid
+    
     
     
 }
@@ -91,21 +96,21 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    
 }
 .video-btns {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding-bottom: 20px;
+    justify-content: space-between;
+    padding: 20px;
     margin-right: auto;
 }
 .actions {
-    justify-content: flex-start;
+    justify-content: space-between
 }
 .likes {
-    margin-left: 600px;
-    justify-content: flex-end;
+    margin-left: 1000px;
+    justify-content: space-between;
 }
 .Comments {
     display: flex;
@@ -206,6 +211,8 @@ button {
     height: 25px;
 }
 .sub {
+    display: flex;
+    flex-direction: column;
     width: 60px;
     height: 50px;
 }
