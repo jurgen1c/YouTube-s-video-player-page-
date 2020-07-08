@@ -1,8 +1,32 @@
+/*-------------------------------General Styling------------------------*/
 body {
     background-color: #f1f1f1;
     font-family: 'Roboto', sans-serif;
     
 }
+h1{
+    font-size: 20px;
+}
+h2 {
+    font-size: 16px;
+}
+h3 {
+    font-size: 14px;
+}
+a {
+    margin: 0 20px;
+    
+}
+p {
+    font-size: 13px;
+}
+#icons {
+    width: 25px;
+    height: 20px;
+    margin: 0 10px;
+    align-items: baseline;
+}
+/*--------------------Navbar----------------------*/
 .logo {
     height: 30px;
     margin-left: 20px;
@@ -58,7 +82,7 @@ button {
     border: none;
 
 }
-
+/*------------------------Body----------------------------*/
 .main-container {
     display: flex;
     flex-direction: row;
@@ -66,23 +90,24 @@ button {
 
 
 }
-
+/*-------------------------------Video Player, Description & Comments--------------*/
 .video-player-section {
     display: flex;
     flex-direction: column;
     background-color:#ffffff;
     width: 100%;
+    height: auto;
     margin-right: 20px;
     
 }
-
+/*----------------------------Video Player----------------*/
 .video-player {
     display: flex;
     width: 100%;
     height: 500px;
     
 }
-
+/*--------------------------Title Section--------------*/
 .title {
     background-color: #ffffff;
     display: flex;
@@ -99,104 +124,24 @@ button {
     display: flex;
     flex-direction: row;
     justify-items: space-evenly;
+    border-bottom: solid 2px #f1f1f1;
     
 }
-.video-btns {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    
-    
-}
-.views {
-    margin-left: auto;
-    padding-top: 30px;
-}
-
-.actions {
-    
-    
-}
-.likes {
-    margin-left: auto;
-    
-    
-}
-
-.Comments {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    width: auto;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    border-top: 15px #f1f1f1 solid
-    
-}
-
-/*--------------- Recommended section CSS ----------------------------*/
-.recommended {
-    /*
-    display: block;
-    align-items: flex-end;
-    margin-left: 30px;
-    align-content: flex-start;
-    background-color: white;
-    height: 500px;
-    width: 300px;
-    */
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-.background{
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    width: 30%;
-    
-}
-.up-next {
-    display: flex;
-    flex-direction: row;
-    margin-left: 25px;
-    justify-content: space-between;
-    align-items: center;
-}
-.recommended-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 5px; 
-}
-.thumbnail {
-    flex: 1;
-}
-.thumbnail-data {
-    flex: 1;
-}
-/*-------------------Comments section --------------------*/
-/*.user-comments {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: 10px;
-    background-color: #ffffff;
-}
-.user-replies {
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-}*/
 .creator-name {
     display: flex;
     flex-direction: row;    
     align-items: baseline;
     margin-left: 10px;
+    
+}
+.sub {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 50px;
+}
+#sub-btn {
+    width: 90px;
     
 }
 .description {
@@ -217,11 +162,69 @@ button {
     flex-direction: row;
     align-items: baseline;
 }
-#icons {
-    width: 30px;
-    height: 25px;
-    margin: 0 10px;
-    align-items: baseline;
+.video-btns {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+    
+}
+.views {
+    margin-left: auto;
+    padding-top: 30px;
+}
+.likes {
+    margin-left: auto;
+    
+    
+}
+/*--------------------------------Comments--------------------*/
+.Comments {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-top: 15px #f1f1f1 solid
+    
+}
+
+/*--------------- Recommended section CSS ----------------------------*/
+.background{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 30%;
+    
+}
+.up-next {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+/*------------------------------Related Videos Container---------------*/
+.recommended {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.recommended-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px; 
+}
+.thumbnail {
+    flex: 1;
+}
+.thumbnail-data {
+    flex: 1;
 }
 #autoplay {
     width: 30px;
@@ -229,30 +232,6 @@ button {
     
     
 }
-.sub {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: 50px;
-}
-#sub-btn {
-    width: 90px;
-    
-}
-h1{
-    font-size: 20px;
-}
-h2 {
-    font-size: 16px;
-}
-h3 {
-    font-size: 14px;
-}
-a {
-    margin: 0 20px;
-    
-}
-p {
-    font-size: 13px;
-}
+
+
 
