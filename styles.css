@@ -39,7 +39,7 @@ body {
     justify-content: end;
 }
 
-w {
+input {
     width: 700px;
     height: 25px;
 }
@@ -61,7 +61,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color:#ffffff;
-    width: auto;
+    width: 100%;
     margin-right: 20px;
     
 }
@@ -70,7 +70,7 @@ button {
     display: flex;
     width: 100%;
     height: 500px;
-    padding-bottom: 30px;
+    
 }
 
 .title {
@@ -78,11 +78,14 @@ button {
     display: flex;
     flex-direction: row;
     width: auto;
-    margin-left: 10px;
+    
+    border-top: 15px #f1f1f1 solid
+    
     
 }
 .video-title {
     flex: 1;
+    padding-left: 10px;
 }
 .video-btns {
     flex: 1;
@@ -98,13 +101,13 @@ button {
 .Comments {
     display: flex;
     flex-direction: column;
-    margin: 5px 5px 5px 10px;
-    padding: 5px 5px 5px 10px;
+    padding-left: 10px;
     width: auto;
     height: 100px;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    border-top: 15px #f1f1f1 solid
     
 }
 
@@ -172,10 +175,10 @@ button {
     
 }
 .description {
-    margin: 5px 5px 5px 10px;
-    padding: 5px 5px 5px 10px;
+    padding-left: 10px;
     width: auto;
     height: 150px;
+    border-top: 15px #f1f1f1 solid
 }
 
 .avatar {
