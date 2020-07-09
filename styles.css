@@ -82,6 +82,18 @@ button {
     border: none;
 
 }
+.user-account {
+    width: 30px;
+    height: 30px;
+    align-items: baseline;
+    
+}
+.navbar-icons {
+    width: 20px;
+    height: 20px;
+    align-items: baseline;
+
+}
 /*------------------------Body----------------------------*/
 .main-container {
     display: flex;
