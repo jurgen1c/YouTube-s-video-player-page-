@@ -5,7 +5,7 @@
 > In this project we strived to create a youtube video player page clone that was responsive and aesthetically pleasing. We used HTML & CSS3(Flexbox) to achieve this.
 ![screenshot](./graphics/Screenshot.png)
 
-Additional description about the project and its features.
+A Youtube clone project
 
 ## Built With
 
