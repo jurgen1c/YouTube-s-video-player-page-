@@ -152,9 +152,16 @@ button {
     width: auto;
     height: 50px;
 }
-#sub-btn {
+#sub-img {
     width: 90px;
     
+}
+#sub-btn {
+    width: 90px;
+    border: none;
+}
+#share {
+    border: none;
 }
 .description {
     padding: 0 10px 0 10px;
