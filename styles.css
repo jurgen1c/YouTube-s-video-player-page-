@@ -1,0 +1,256 @@
+/*-------------------------------General Styling------------------------*/
+body {
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    font-size: 20px;
+}
+h2 {
+    font-size: 16px;
+}
+h3 {
+    font-size: 14px;
+}
+a {
+    margin: 0 20px;
+    
+}
+p {
+    font-size: 13px;
+}
+#icons {
+    width: 25px;
+    height: 20px;
+    margin: 0 10px;
+    align-items: baseline;
+}
+/*--------------------Navbar----------------------*/
+.logo {
+    height: 30px;
+    margin-left: 20px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    margin:0 0 25px 0 ;
+    background-color: #ffffff;
+}
+
+.center {
+    display: flex;
+    width: 700px;
+    height: 30px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+input {
+    width: 700px;
+    height: 25px;
+}
+
+button {
+    height: 31px;
+    width: 75px;
+    background-color: #ffffff;
+    border: solid 1px grey;
+}
+.sign-in {
+    background-color: #1079c6;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+
+}
+.user-account {
+    width: 30px;
+    height: 30px;
+    align-items: baseline;
+    
+}
+.navbar-icons {
+    width: 20px;
+    height: 20px;
+    align-items: baseline;
+
+}
+/*------------------------Body----------------------------*/
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+/*-------------------------------Video Player, Description & Comments--------------*/
+.video-player-section {
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffff;
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    
+}
+/*----------------------------Video Player----------------*/
+.video-player {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+}
+/*--------------------------Title Section--------------*/
+.title {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 10px;
+    border-top: 15px #f1f1f1 solid
+    
+    
+    
+    
+}
+.video-title {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-evenly;
+    border-bottom: solid 2px #f1f1f1;
+    
+}
+.creator-name {
+    display: flex;
+    flex-direction: row;    
+    align-items: baseline;
+    margin-left: 10px;
+    
+}
+.sub {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 50px;
+}
+#sub-img {
+    width: 90px;
+    
+}
+#sub-btn {
+    width: 90px;
+    border: none;
+}
+#share {
+    border: none;
+}
+.description {
+    padding: 0 10px 0 10px;
+    width: auto;
+    height: 150px;
+    border-top: 15px #f1f1f1 solid
+}
+
+.avatar {
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 50px;
+    width: 50px;
+}
+.user-avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.video-btns {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+    
+}
+.views {
+    margin-left: auto;
+    padding-top: 30px;
+}
+.likes {
+    margin-left: auto;
+    
+    
+}
+/*--------------------------------Comments--------------------*/
+.Comments {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-top: 15px #f1f1f1 solid
+    
+}
+
+/*--------------- Recommended section CSS ----------------------------*/
+.background{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 30%;
+    
+}
+.up-next {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+/*------------------------------Related Videos Container---------------*/
+.recommended {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.recommended-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px; 
+}
+.thumbnail {
+    flex: 1;
+}
+.thumbnail-data {
+    flex: 1;
+}
+#autoplay {
+    width: 30px;
+    height: 30px;
+    
+    
+}
+
+
+
