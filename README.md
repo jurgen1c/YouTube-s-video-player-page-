@@ -13,11 +13,6 @@ A Youtube clone project
 - NO frameworks,
 - Vscode
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
